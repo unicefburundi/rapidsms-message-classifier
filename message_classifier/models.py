@@ -1,6 +1,7 @@
 from django.contrib.auth.models import User
 from django.db import models
-from  rapidsms_httprouter.models import Message
+#from  rapidsms_httprouter.models import Message
+from rapidsms.router.db.models import Message
 from contact.models import Flag
 from django.template.defaultfilters import slugify
 
